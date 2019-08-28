@@ -1,5 +1,3 @@
-import math
-
 def numJewelsInStones(J, S):
         """
         :type J: str
