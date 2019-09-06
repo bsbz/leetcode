@@ -20,5 +20,6 @@ def numJewelsInStones(J, S):
 
 J = "aA"
 S = "aAAbbbb"
+
 res = numJewelsInStones(J, S)
 print(res)
