@@ -38,5 +38,3 @@ s = "(()())(())(()(()))"
 
 res = removeOuterParentheses(s)
 print(res)
-
-
