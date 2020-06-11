@@ -17,14 +17,14 @@
 
 def numTeams(rating):
         #print(rating)
-        count = 0
+    count = 0
         
-        for i in range(len(rating)):
-            for j in range(i+1, len(rating)):
-                for k in range(j+1, len(rating)):
-                    if (rating[i] > rating[j] > rating[k]) or (rating[i] < rating[j] < rating[k]):
-                        count += 1
-        return count
+    for i in range(len(rating)):
+        for j in range(i+1, len(rating)):
+            for k in range(j+1, len(rating)):
+               if (rating[i] > rating[j] > rating[k]) or (rating[i] < rating[j] < rating[k]):
+                   count += 1
+    return count
 
 input = [3,2,4,5,1,8,6,9,7]
 print(numTeams(input))
